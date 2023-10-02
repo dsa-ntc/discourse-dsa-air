@@ -558,3 +558,7 @@ html body #main-outlet {
 .topic-list .main-link.focused {
   box-shadow: none;
 }
+
+.nav-pills:not(.action-list) > li a.active, .nav-pills:not(.user-nav) > li > a {
+  border-radius: 0;
+}
