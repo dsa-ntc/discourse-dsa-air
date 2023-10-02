@@ -559,6 +559,6 @@ html body #main-outlet {
   box-shadow: none;
 }
 
-.nav-pills:not(.action-list) > li a.active, .nav-pills:not(.user-nav) > li > a {
+.nav-pills.action-list > li a.active, .nav-pills:not(.user-nav) > li > a {
   border-radius: 0;
 }
